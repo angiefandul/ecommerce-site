@@ -1,0 +1,21 @@
+{
+  "name": "ecommerce-site",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    
+    "test": "node_modules/.bin/cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromTest": "npm run test -- --browser chrome",
+    "recordDashBoardTest": "npm run test -- --record --key 200c2cbf-b9b3-4a3e-a27c-79f772cc7acd --reporter mochawesome"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.3",
+    "prettier": "^3.2.5"
+  }
+}
